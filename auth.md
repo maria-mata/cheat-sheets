@@ -156,4 +156,9 @@ const userId = decodedToken // The user ID of the person logged in
 const url = 'http://localhost:3000'
 
 // GET, POST, PUT, DELETE requests based on userId
+function parseJWT(token) { // THIS WORKS
+	let base64Url = token.split('.')[1];
+	let base64 = base64Url.replace('-', '+').replace('_', '/');
+	return JSON.parse(window.atob(base64));
+};
 ```
