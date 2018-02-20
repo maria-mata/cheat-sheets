@@ -5,6 +5,8 @@ cd ~
 atom .zshrc
 # in atom, change theme name to agnoster (around line 10)
 ZSH_THEME="agnoster"
+# add your default user in order to remove your name from the path
+DEFAULT_USER="yourusername"
 # in terminal, refresh the theme
 source .zshrc
 ```
