@@ -4,6 +4,7 @@
 * [Firebase](/firebase.md)
 * [Git Commands](/git-commands.md)
 * [Heroku](/heroku.md)
+* [iTerm](/iterm.md)
 * [OOP](/oop.md)
 * [Refactoring](/refactor.md)
 * [Server & DB Setup (Express Generator)](/server-bd-setup.md)
